@@ -6,7 +6,7 @@
 - Korea Aerospace University (2016.03 ~  ing)
 
   Major: Bachelor of Sofware
-  
+
   Expected Graduation: Feb 2022
 
 
@@ -24,8 +24,8 @@
   [수상 확인서](./naver_airush_2021/airush2021_수상확인서_short.png)
 - [2018 고양시 메이커톤 대상(2018.12)](https://www.mygoyang.com/news/articleView.html?idxno=49180)
 
-  [승차벨 Prototype](
-    ./goyang/다섯이_내고양.jpg
+  [수상 확인서](
+    ./goyang/고양시_메이커톤_수상확인서.jpg
   )
 
 ## Certificate
