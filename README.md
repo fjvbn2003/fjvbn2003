@@ -3,9 +3,9 @@
 - 이메일: fjvbn2003@gmail.com
 
 ## Education
-- Korea Aerospace University (2016.03 ~  ing)
+- Korea Aerospace University (2016.03 ~  )
 
-  Major: Bachelor of Sofware
+  Major: Bachelor of Software
 
   Expected Graduation: Feb 2022
 
