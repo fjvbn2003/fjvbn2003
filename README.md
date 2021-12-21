@@ -30,7 +30,7 @@
 
 ## Certificate
 - 정보처리기사 (2021.06)
-- TOPCIT Level 3 (2021.05 )
+- TOPCIT Level 3 (2021.05 육군참모총장상)
 
 ## Github Status
 
