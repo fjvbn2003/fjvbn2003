@@ -3,6 +3,7 @@
 Started my career as an HBase Engineer, managing thousands of HBase instances. Developed back-office tools for operational efficiency and created a custom cluster management tool called HBH (HitBaseHandler) to replace a commercial cluster management tool, reducing licensing costs. Currently working on a project to integrate HBase as a DBaaS product in the company's internal cloud using Kubernetes. Recently filmed a content video for LINER:View to introduce the role of an HBase Engineer.
 
 Dev Blog: https://www.youngju.dev/
+
 LINE:View Interview: https://www.youtube.com/watch?v=30_QyLSZbzY
 
 
