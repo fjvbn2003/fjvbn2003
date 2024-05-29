@@ -29,7 +29,7 @@ LINE:View Interview: https://www.youtube.com/watch?v=30_QyLSZbzY
 
 - CKA(Certified Kubernetes Administrator) 2023.12.31
 - 빅데이터분석기사 (한국데이터산업진흥원) 2023.08.14
-- 정보처리기사 (한국산업인력공단) 2021.06.02
+- 정보처리기사 (한국산업인력공단) 2021.06.02
 - TOPCIT Level 3 (2021.05 육군참모총장상)
 
   
