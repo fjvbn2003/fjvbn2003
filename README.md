@@ -6,6 +6,7 @@ Dev Blog: https://www.youngju.dev/
 
 LINE:View Interview: https://www.youtube.com/watch?v=30_QyLSZbzY
 
+LINE tech-blog : [develop-hitbasehandler-to-manage-apache-hbase-cluster](https://techblog.lycorp.co.jp/ko/develop-hitbasehandler-to-manage-apache-hbase-cluster)
 
 ## HBase Contributing
 
