@@ -61,6 +61,7 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 - 📊 **DevOps Helm Standard** — Standard Helm chart v1.0 release, GitOps pipeline with ArgoCD
 - 🖥 **Education Platform** — Operated 240-node GPU multi-cloud cluster (IPSec VPN)
 - 🏭 **Manufacturing · Insurance · Public** — OCR/LLM/EWS install, SSO·LDAP·DRM integration, load testing
+- 🤖 **[k13d](https://github.com/cloudbro-kube-ai/k13d)** — Building a natural language Kubernetes dashboard ([docs](https://cloudbro-kube-ai.github.io/k13d/latest/))
 
 **@ LINE** — Large-scale distributed database (Apache HBase) operations & tooling
 
@@ -82,13 +83,6 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 - 🥈 **Naver Clova AI-Rush 4th** (2021)
 - 🥇 **고양시 메이커톤 대상** (2018)
 - 📊 KLUE 뉴스 토픽 분류 AI 경진대회 27/256 (상위 11%)
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fjvbn2003&show_icons=true&theme=default&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fjvbn2003&layout=compact&hide_border=true&langs_count=8" height="165"/>
-</p>
 
 ---
 
