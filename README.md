@@ -16,7 +16,7 @@
 
 ### 👋 About Me
 
-금융·제조·교육·공공 **10+ 고객사**에 AI 모델(LLM, OCR, Embedding)을 온프레미스·Kubernetes 환경으로 딜리버리하는 DevOps 엔지니어입니다.
+AI 모델(LLM, OCR, Embedding)을 온프레미스·Kubernetes 환경에서 안정적으로 서빙하는 DevOps 엔지니어입니다. 폐쇄망·보안 환경에서 **10+ 프로젝트**에 AI 솔루션을 딜리버리했습니다.
 
 - 🏢 **Upstage** — AI DevOps Engineer *(2024.11 ~)*
 - 🟢 **LINE** — Software Engineer / DBA *(2021.11 ~ 2024.11)*
@@ -54,13 +54,12 @@
 
 ### 💼 What I Do
 
-**@ Upstage** — AI 제품(Solar LLM, DocAI, EWS)을 고객사 온프레미스·K8s 환경에 딜리버리
+**@ Upstage** — AI 제품(LLM, OCR, EWS)을 온프레미스·K8s 환경에 딜리버리
 
-- 🏦 **IBK** — H100×16 K8s 클러스터에 Solar Box 2.0 Helm 포팅, MIG 설정, 모니터링 스택 구축
-- 🏛 **KBank** — DP·Embedding·EWS 설치, SSO/LDAP/DRM 연동
-- 🎓 **AI Stages** — 240대 GPU 노드 멀티 클라우드 클러스터 운영 (IPSec VPN)
+- 🏗 **금융권 생성형 AI** — H100×16 K8s 클러스터에 AI 솔루션 Helm 포팅, MIG 설정, 모니터링 스택 구축
 - 📊 **DevOps Helm Standard** — 표준 Helm 차트 v1.0 릴리스, GitOps(ArgoCD) 파이프라인
-- 🏭 **삼성웰스토리 · SK-N · 신한라이프** 외 다수 고객사 딜리버리
+- 🖥 **교육 플랫폼 인프라** — 240대 GPU 노드 멀티 클라우드 클러스터 운영 (IPSec VPN)
+- 🏭 **제조·보험·공공 등** — OCR/LLM/EWS 설치, SSO·LDAP·DRM 연동, 부하테스트
 
 **@ LINE** — 대규모 분산 DB(Apache HBase) 운영 및 관리도구 개발
 
