@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=30_QyLSZbzY"><img src="https://img.shields.io/badge/LINE:View-Interview-FF0000?style=flat-square&logo=youtube&logoColor=white"/></a>
   <a href="https://www.credly.com/badges/81902074-cc4f-4046-b614-2dbcf9783c53/public_url"><img src="https://img.shields.io/badge/CNCF-Kubestronaut-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/></a>
   <a href="https://techblog.lycorp.co.jp/ko/develop-hitbasehandler-to-manage-apache-hbase-cluster"><img src="https://img.shields.io/badge/LINE-Tech%20Blog-00C300?style=flat-square&logo=line&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/%EC%98%81%EC%A3%BC-%EA%B9%80-2303b8214/"><img src="https://img.shields.io/badge/LinkedIn-Youngju%20Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
@@ -59,12 +58,12 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 **@ Upstage** — On-premise & K8s delivery of AI products (LLM, OCR, EWS)
 
 - 🏗 **Generative AI (Finance)** — Helm-based AI solution on H100×16 K8s cluster, NVIDIA MIG, monitoring stack
-- 📊 **DevOps Helm Standard** — Standard Helm chart v1.0 release, GitOps pipeline with ArgoCD
+- 📊 **DevOps Helm Standard** — Helm charts for serving LLM & Document Processing models, v1.0 release, GitOps with ArgoCD
 - 🖥 **Education Platform** — Operated 240-node GPU multi-cloud cluster (IPSec VPN)
 - 🏭 **Manufacturing · Insurance · Public** — OCR/LLM/EWS install, SSO·LDAP·DRM integration, load testing
 - 🤖 **[k13d](https://github.com/cloudbro-kube-ai/k13d)** — Building a natural language Kubernetes dashboard ([docs](https://cloudbro-kube-ai.github.io/k13d/latest/))
 
-**@ LINE** — Large-scale distributed database (Apache HBase) operations & tooling
+**@ LINE** — Large-scale distributed database (Apache HBase) operations & tooling · [▶ Job Interview](https://www.youtube.com/watch?v=30_QyLSZbzY)
 
 - 🔄 Led HBase open-source migration (cluster build, load testing, data integrity verification)
 - 🛠 [HBH (HitBaseHandler)](https://techblog.lycorp.co.jp/ko/develop-hitbasehandler-to-manage-apache-hbase-cluster) — Designed and built Django-based cluster management tool
