@@ -10,6 +10,7 @@
   <a href="https://www.youtube.com/watch?v=30_QyLSZbzY"><img src="https://img.shields.io/badge/LINE:View-Interview-FF0000?style=flat-square&logo=youtube&logoColor=white"/></a>
   <a href="https://www.credly.com/badges/81902074-cc4f-4046-b614-2dbcf9783c53/public_url"><img src="https://img.shields.io/badge/CNCF-Kubestronaut-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/></a>
   <a href="https://techblog.lycorp.co.jp/ko/develop-hitbasehandler-to-manage-apache-hbase-cluster"><img src="https://img.shields.io/badge/LINE-Tech%20Blog-00C300?style=flat-square&logo=line&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/%EC%98%81%EC%A3%BC-%EA%B9%80-2303b8214/"><img src="https://img.shields.io/badge/LinkedIn-Youngju%20Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:fjvbn2003@gmail.com"><img src="https://img.shields.io/badge/Email-fjvbn2003-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
