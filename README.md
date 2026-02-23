@@ -21,8 +21,6 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 
 - 🏢 **Upstage** — AI DevOps Engineer *(2024.11 ~)*
 - 🟢 **LINE** — Software Engineer / DBA *(2021.11 ~ 2024.11)*
-- 🎓 한국항공대학교 소프트웨어학
-
 ### 🛠 Tech Stack
 
 <p>
