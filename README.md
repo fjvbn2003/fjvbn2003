@@ -68,6 +68,17 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 - 🔄 Led HBase open-source migration (cluster build, load testing, data integrity verification)
 - 🛠 [HBH (HitBaseHandler)](https://techblog.lycorp.co.jp/ko/develop-hitbasehandler-to-manage-apache-hbase-cluster) — Designed and built Django-based cluster management tool
 
+### 🏠 Home Lab
+
+Self-hosted GPU cluster for AI model serving, music generation, and image generation.
+
+| Host | GPU | Role | Models |
+|:---|:---|:---|:---|
+| **spark01** | NVIDIA GB10 (128GB unified) | LLM Serving | gpt-oss:120b (ollama) |
+| **spark02** | NVIDIA GB10 (128GB unified) | LLM Serving | Qwen3-235B-A22B (ollama) |
+| **omen** | RTX 3090 (24GB) | Music Generation | ACE-Step v1.5 |
+| **omen2** | RTX 5090 (32GB) | Image Generation | FLUX.2-dev (4-bit) |
+
 ### 🚀 Side Projects
 
 | Project | Description | Tech |
