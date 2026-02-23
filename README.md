@@ -55,9 +55,9 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 
 **@ Upstage** — On-premise & K8s delivery of AI products (LLM, OCR, EWS)
 
-- 🏗 **Generative AI (Finance)** — Helm-based AI solution on H100×16 K8s cluster, NVIDIA MIG, monitoring stack
+- 🏗 **Generative AI (Finance)** — Helm-based AI solution on GPU K8s cluster, NVIDIA MIG, monitoring stack
 - 📊 **DevOps Helm Standard** — Helm charts for serving LLM & Document Processing models, v1.0 release, GitOps with ArgoCD
-- 🖥 **Education Platform** — Operated 240-node GPU multi-cloud cluster (IPSec VPN)
+- 🖥 **Education Platform** — Operated large-scale GPU multi-cloud cluster (IPSec VPN)
 - 🏭 **Manufacturing · Insurance · Public** — OCR/LLM/EWS install, SSO·LDAP·DRM integration, load testing
 - 🤖 **[k13d](https://github.com/cloudbro-kube-ai/k13d)** — Building a natural language Kubernetes dashboard ([docs](https://cloudbro-kube-ai.github.io/k13d/latest/))
 
