@@ -71,7 +71,7 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 
 | Project | Description | Tech |
 |:---|:---|:---|
-| **k13d** | Natural language Kubernetes dashboard | Go, Claude Code |
+| **[k13d](https://github.com/cloudbro-kube-ai/k13d)** | Natural language Kubernetes dashboard · [docs](https://cloudbro-kube-ai.github.io/k13d/latest/) | Go, Claude Code |
 | **fingerscore** | Real-time sports score platform | Next.js, Supabase |
 | **ai-shorts-generator** | Automated AI shorts video pipeline | Python, Wan2.1/2.2 |
 | **ai-stages-kubevirt** | KubeVirt-based AI training environment | KubeVirt, K8s |
