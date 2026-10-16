@@ -91,9 +91,33 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 | **ai-shorts-generator** | Automated AI shorts video pipeline | Python, Wan2.1/2.2 |
 | **ai-stages-kubevirt** | KubeVirt-based AI training environment | KubeVirt, K8s |
 
-### 🏆 Awards & Contributions
+### 🌱 Open Source Contributions
 
-- 🥇 **Apache HBase Contributor** — [PR#5927](https://github.com/apache/hbase/pull/5927) ([HBASE-28599](https://issues.apache.org/jira/browse/HBASE-28599))
+I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with measurements from a real cluster. Main focus: **KubeVirt** and **CloudNativePG**.
+
+**Merged**
+
+| Project | PR | Change |
+|:---|:---|:---|
+| Apache HBase | [#5927](https://github.com/apache/hbase/pull/5927) | Fix `RowTooBigException` on a duplicate increment RPC ([HBASE-28599](https://issues.apache.org/jira/browse/HBASE-28599)) |
+| SeaweedFS | [#11755](https://github.com/seaweedfs/seaweedfs/pull/11755) | `weed mini` help: `mini.options` and Docker `filer.toml` pitfalls |
+| Grafana Helm charts | [#896](https://github.com/grafana-community/helm-charts/pull/896) | Document that the admin password is only applied on first start |
+| llm-d | [#2835](https://github.com/llm-d/llm-d/pull/2835) | Replace vLLM metric names that vLLM no longer exports |
+
+**In review** *(October 2026)*
+
+- **Virtualization** — KubeVirt user-guide [#1040](https://github.com/kubevirt/user-guide/pull/1040) · CDI [#4318](https://github.com/kubevirt/containerized-data-importer/pull/4318) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222)
+- **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) [#1166](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1166) · ClickHouse [#126337](https://github.com/ClickHouse/ClickHouse/pull/126337) · zstd [#4847](https://github.com/facebook/zstd/pull/4847)
+- **Kubernetes & networking** — Envoy [#48408](https://github.com/envoyproxy/envoy/pull/48408) · MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · Helm [#2307](https://github.com/helm/helm-www/pull/2307) · Argo Workflows [#17246](https://github.com/argoproj/argo-workflows/pull/17246) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · eBPF Docs [#301](https://github.com/isovalent/ebpf-docs/pull/301)
+- **GPU & AI infrastructure** — NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · Dynamo [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · LMCache [#5814](https://github.com/LMCache/LMCache/pull/5814) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396) · Slinky Slurm operator [#272](https://github.com/SlinkyProject/slurm-operator/pull/272)
+- **AI frameworks & apps** — LlamaIndex [#23548](https://github.com/run-llama/llama_index/pull/23548) · models.dev [#10155](https://github.com/anomalyco/models.dev/pull/10155) · LobeHub [#21026](https://github.com/lobehub/lobehub/pull/21026) · MediaPipe [#6381](https://github.com/google-ai-edge/mediapipe/pull/6381)
+- **Observability & IaC** — Grafana Tempo chart [#898](https://github.com/grafana-community/helm-charts/pull/898) · OpenSearch docs [#13346](https://github.com/opensearch-project/documentation-website/pull/13346) · Ansible docs [#4077](https://github.com/ansible/ansible-documentation/pull/4077) [#4078](https://github.com/ansible/ansible-documentation/pull/4078) · community.general [#12997](https://github.com/ansible-collections/community.general/pull/12997) · Terraform local provider [#533](https://github.com/hashicorp/terraform-provider-local/pull/533)
+- **Robotics** — PX4 Autopilot [#29271](https://github.com/PX4/PX4-Autopilot/pull/29271)
+
+→ [All my open-source pull requests](https://github.com/search?q=is%3Apr+author%3Afjvbn2003+-user%3Afjvbn2003+-org%3Acloudbro-kube-ai+-org%3Akube-ai-dashbaord&type=pullrequests&s=created&o=desc) · write-ups of merged changes on the [TT Lab blog](https://ttlab.hopto.org/blog)
+
+### 🏆 Awards
+
 - 🥈 **Naver Clova AI-Rush 4th** (2021)
 - 🥇 **고양시 메이커톤 대상** (2018)
 - 📊 KLUE 뉴스 토픽 분류 AI 경진대회 27/256 (상위 11%)
