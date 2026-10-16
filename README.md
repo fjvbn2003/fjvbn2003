@@ -68,14 +68,19 @@ DevOps engineer specializing in deploying AI models (LLM, OCR, Embedding) to on-
 
 ### 🏠 Home Lab
 
-Self-hosted GPU cluster for AI model serving, music generation, and image generation.
+An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)**: a hands-on DevOps learning platform (real root shells in isolated lab pods and KubeVirt VMs) and AI services such as a real-time table tennis scoreboard.
 
-| Host | GPU | Role | Models |
-|:---|:---|:---|:---|
-| **spark01** | NVIDIA GB10 (128GB unified) | LLM Serving | gpt-oss:120b (ollama) |
-| **spark02** | NVIDIA GB10 (128GB unified) | LLM Serving | Qwen3-235B-A22B (ollama) |
-| **omen** | RTX 3090 (24GB) | Music Generation | ACE-Step v1.5 |
-| **omen2** | RTX 5090 (32GB) | Image Generation | FLUX.2-dev (4-bit) |
+| Node | Role | CPU · RAM | GPU | Runs |
+|:---|:---|:---|:---|:---|
+| **cubi01–03** | Control plane (etcd quorum) | 4 vCPU · 15 GiB each | — | API server, etcd |
+| **nuc1, nuc2** | Worker | 22 vCPU · 30 GiB each | RTX 4070 Laptop (8GB) | TT Lab web, CI/CD, AI serving (TTS, LLM) |
+| **omen** | GPU worker | 24 vCPU · 61 GiB | RTX 3090 (24GB, time-sliced ×5) | Real-time ball tracking & scoring, table segmentation |
+| **loq** | GPU worker | 16 vCPU · 14 GiB | RTX 4060 Laptop (8GB) | Git hosting, registry, ML experiments & fine-tuning |
+| **dell** | VM worker | 16 vCPU · 22 GiB | RTX 3060 Laptop (VFIO passthrough) | KubeVirt VMs with GPU |
+
+**Stack** — Kubernetes v1.34 · Cilium 1.20 (Gateway API, FQDN egress policies) · MetalLB L2 · Argo CD · Jenkins · Gitea · Harbor · Keycloak SSO · CloudNativePG · KubeVirt + CDI · NVIDIA GPU Operator · Istio · Airflow · Prometheus · Grafana · OpenTelemetry
+
+**Write-ups** — Postmortems, measurements and study notes from running it are on the [TT Lab blog](https://ttlab.hopto.org/blog).
 
 ### 🚀 Side Projects
 
