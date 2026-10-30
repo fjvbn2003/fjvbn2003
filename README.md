@@ -95,15 +95,16 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 
 I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with a reproduction or measurement from a real cluster. Main focus: **KubeVirt**, **Kubeflow** and **CloudNativePG**.
 
-**25 merged** across 23 projects · **48 in review** *(as of October 30, 2026)*
+**28 merged** across 24 projects · **51 in review** *(as of October 31, 2026)*
 
 **Merged**
 
-<details open><summary><b>Virtualization</b> (6)</summary>
+<details open><summary><b>Virtualization</b> (7)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
 | KubeVirt | [#19499](https://github.com/kubevirt/kubevirt/pull/19499) | virt-operator: stop GETting a disabled webhook on every reconcile |
+| KubeVirt | [#19618](https://github.com/kubevirt/kubevirt/pull/19618) | Docs: name `virtqemud` as the daemon in virt-launcher |
 | KubeVirt CDI | [#4319](https://github.com/kubevirt/containerized-data-importer/pull/4319) | Storage capabilities for `rancher.io/local-path` |
 | KubeVirt CDI | [#4318](https://github.com/kubevirt/containerized-data-importer/pull/4318) | Explain how filesystem overhead changes PVC and image size |
 | KubeVirt CDI | [#4320](https://github.com/kubevirt/containerized-data-importer/pull/4320) | Log the storage class name instead of its pointer |
@@ -112,13 +113,15 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 </details>
 
-<details><summary><b>AI / ML infrastructure</b> (6)</summary>
+<details><summary><b>AI / ML infrastructure</b> (8)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
 | Kubeflow Trainer | [#4334](https://github.com/kubeflow/trainer/pull/4334) | Use v2.3.0 in the installation guide |
 | Gemini cookbook | [#1433](https://github.com/google-gemini/cookbook/pull/1433) | Live API WebSocket starter: current `realtime_input` format, flush playback on interruption |
 | llm-d | [#2835](https://github.com/llm-d/llm-d/pull/2835) | Replace vLLM metric names that vLLM no longer exports |
+| llm-d router | [#3681](https://github.com/llm-d/llm-d-router/pull/3681) | Make the file discovery example run as written |
+| llm-d router | [#3682](https://github.com/llm-d/llm-d-router/pull/3682) | Document `prefixMatchInfoProducerName` on the prefix-cache scorer |
 | LMCache | [#5814](https://github.com/LMCache/LMCache/pull/5814) | Drop `--disable-log-requests` from `vllm serve` examples |
 | MiniMind | [#889](https://github.com/jingyaogong/minimind/pull/889) | Pick native vs. Transformers loading by directory name |
 | models.dev | [#10155](https://github.com/anomalyco/models.dev/pull/10155) | Add Upstage Solar Mini 4 |
@@ -154,12 +157,12 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 **In review**
 
-- **Virtualization** — KubeVirt [#19617](https://github.com/kubevirt/kubevirt/pull/19617) [#19618](https://github.com/kubevirt/kubevirt/pull/19618) [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
-- **GPU & AI infrastructure** — NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · KAI Scheduler [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · llm-d router [#3681](https://github.com/llm-d/llm-d-router/pull/3681) [#3682](https://github.com/llm-d/llm-d-router/pull/3682) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396) · Slinky Slurm operator [#272](https://github.com/SlinkyProject/slurm-operator/pull/272)
+- **Virtualization** — KubeVirt [#19617](https://github.com/kubevirt/kubevirt/pull/19617) [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
+- **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · Kubeflow manifests [#3662](https://github.com/kubeflow/community-distribution/pull/3662) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · KAI Scheduler [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396) · Slinky Slurm operator [#272](https://github.com/SlinkyProject/slurm-operator/pull/272)
 - **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) [#1166](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1166) · ClickHouse [#126337](https://github.com/ClickHouse/ClickHouse/pull/126337) · zstd [#4847](https://github.com/meta/zstd/pull/4847) · RocksDB [#15418](https://github.com/meta/rocksdb/pull/15418)
 - **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · Keycloak (codecentric) chart [#939](https://github.com/codecentric/helm-charts/pull/939) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
 - **Observability & IaC** — Grafana Tempo chart [#898](https://github.com/grafana-community/helm-charts/pull/898) · Ansible docs [#4077](https://github.com/ansible/ansible-documentation/pull/4077) [#4078](https://github.com/ansible/ansible-documentation/pull/4078) · Terraform local provider [#533](https://github.com/hashicorp/terraform-provider-local/pull/533)
-- **AI frameworks & apps** — LlamaIndex [#23548](https://github.com/run-llama/llama_index/pull/23548) · LobeHub [#21026](https://github.com/lobehub/lobehub/pull/21026) · Hermes Agent [#140057](https://github.com/NousResearch/hermes-agent/pull/140057) · catwalk [#676](https://github.com/charmbracelet/catwalk/pull/676) · gptel [#1578](https://github.com/karthink/gptel/pull/1578) · MediaPipe [#6381](https://github.com/google-ai-edge/mediapipe/pull/6381)
+- **AI frameworks & apps** — DeepSeek-OCR-2 [#61](https://github.com/deepseek-ai/DeepSeek-OCR-2/pull/61) · OpenVINO notebooks [#3820](https://github.com/openvinotoolkit/openvino_notebooks/pull/3820) · Baseten truss-examples [#594](https://github.com/basetenlabs/truss-examples/pull/594) · LlamaIndex [#23548](https://github.com/run-llama/llama_index/pull/23548) · LobeHub [#21026](https://github.com/lobehub/lobehub/pull/21026) · Hermes Agent [#140057](https://github.com/NousResearch/hermes-agent/pull/140057) · catwalk [#676](https://github.com/charmbracelet/catwalk/pull/676) · gptel [#1578](https://github.com/karthink/gptel/pull/1578) · MediaPipe [#6381](https://github.com/google-ai-edge/mediapipe/pull/6381)
 - **Python web & robotics** — python-multipart [#338](https://github.com/Kludex/python-multipart/pull/338) · prometheus-fastapi-instrumentator [#403](https://github.com/trallnag/prometheus-fastapi-instrumentator/pull/403) · PX4 Autopilot [#29271](https://github.com/PX4/PX4-Autopilot/pull/29271) [#29291](https://github.com/PX4/PX4-Autopilot/pull/29291)
 
 → [All my open-source pull requests](https://github.com/search?q=is%3Apr+author%3Afjvbn2003+-user%3Afjvbn2003+-org%3Acloudbro-kube-ai+-org%3Akube-ai-dashbaord&type=pullrequests&s=created&o=desc) · how each merged change came about: [Open source contribution log](https://ttlab.hopto.org/blog/oss-contributions-01-seaweedfs-mini-help) on the TT Lab blog *(Korean)*
