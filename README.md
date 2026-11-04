@@ -95,16 +95,17 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 
 I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with a reproduction or measurement from a real cluster. Main focus: **KubeVirt**, **Kubeflow** and **CloudNativePG**.
 
-**32 merged** across 27 projects · **49 in review** *(as of November 2, 2026)*
+**33 merged** across 27 projects · **48 in review** *(as of November 5, 2026)*
 
 **Merged**
 
-<details open><summary><b>Virtualization</b> (7)</summary>
+<details open><summary><b>Virtualization</b> (8)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
 | KubeVirt | [#19499](https://github.com/kubevirt/kubevirt/pull/19499) | virt-operator: stop GETting a disabled webhook on every reconcile |
 | KubeVirt | [#19618](https://github.com/kubevirt/kubevirt/pull/19618) | Docs: name `virtqemud` as the daemon in virt-launcher |
+| KubeVirt | [#19617](https://github.com/kubevirt/kubevirt/pull/19617) | virt-handler: close launcher clients during resync |
 | KubeVirt CDI | [#4319](https://github.com/kubevirt/containerized-data-importer/pull/4319) | Storage capabilities for `rancher.io/local-path` |
 | KubeVirt CDI | [#4318](https://github.com/kubevirt/containerized-data-importer/pull/4318) | Explain how filesystem overhead changes PVC and image size |
 | KubeVirt CDI | [#4320](https://github.com/kubevirt/containerized-data-importer/pull/4320) | Log the storage class name instead of its pointer |
@@ -161,7 +162,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 **In review**
 
-- **Virtualization** — KubeVirt [#19617](https://github.com/kubevirt/kubevirt/pull/19617) [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
+- **Virtualization** — KubeVirt [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
 - **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · KAI Scheduler [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396)
 - **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) [#1166](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1166) · zstd [#4847](https://github.com/meta/zstd/pull/4847) · RocksDB [#15418](https://github.com/meta/rocksdb/pull/15418)
 - **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · Keycloak (codecentric) chart [#939](https://github.com/codecentric/helm-charts/pull/939) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
