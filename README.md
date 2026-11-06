@@ -95,7 +95,7 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 
 I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with a reproduction or measurement from a real cluster. Main focus: **KubeVirt**, **Kubeflow** and **CloudNativePG**.
 
-**33 merged** across 27 projects · **48 in review** *(as of November 5, 2026)*
+**34 merged** across 28 projects · **47 in review** *(as of November 7, 2026)*
 
 **Merged**
 
@@ -130,7 +130,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 </details>
 
-<details><summary><b>Kubernetes, networking & registries</b> (8)</summary>
+<details><summary><b>Kubernetes, networking & registries</b> (9)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
@@ -142,6 +142,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 | Helm docs | [#2307](https://github.com/helm/helm-www/pull/2307) | `lookup` only runs for `template`, `install` and `upgrade` |
 | alpine/k8s | [#99](https://github.com/alpine-docker/k8s/pull/99) | Point eksctl and jq downloads at their current repositories |
 | python-multipart | [#338](https://github.com/Kludex/python-multipart/pull/338) | Docs: make the In-Depth Example return bytes |
+| Keycloak (codecentric) chart | [#939](https://github.com/codecentric/helm-charts/pull/939) | keycloakx: describe proxy values as `KC_PROXY_HEADERS` and drop the `KC_PROXY` example |
 
 </details>
 
@@ -165,7 +166,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 - **Virtualization** — KubeVirt [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
 - **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · KAI Scheduler [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396)
 - **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) [#1166](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1166) · zstd [#4847](https://github.com/meta/zstd/pull/4847) · RocksDB [#15418](https://github.com/meta/rocksdb/pull/15418)
-- **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · Keycloak (codecentric) chart [#939](https://github.com/codecentric/helm-charts/pull/939) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
+- **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
 - **Observability & IaC** — Grafana Tempo chart [#898](https://github.com/grafana-community/helm-charts/pull/898) · Ansible docs [#4077](https://github.com/ansible/ansible-documentation/pull/4077) [#4078](https://github.com/ansible/ansible-documentation/pull/4078) · Terraform local provider [#533](https://github.com/hashicorp/terraform-provider-local/pull/533)
 - **AI frameworks & apps** — DeepSeek-OCR-2 [#61](https://github.com/deepseek-ai/DeepSeek-OCR-2/pull/61) · OpenVINO notebooks [#3820](https://github.com/openvinotoolkit/openvino_notebooks/pull/3820) · Baseten truss-examples [#594](https://github.com/basetenlabs/truss-examples/pull/594) · LlamaIndex [#23548](https://github.com/run-llama/llama_index/pull/23548) · LobeHub [#21026](https://github.com/lobehub/lobehub/pull/21026) · Hermes Agent [#140057](https://github.com/NousResearch/hermes-agent/pull/140057) · catwalk [#676](https://github.com/charmbracelet/catwalk/pull/676) · gptel [#1578](https://github.com/karthink/gptel/pull/1578) · MediaPipe [#6381](https://github.com/google-ai-edge/mediapipe/pull/6381)
 - **Python web & robotics** — prometheus-fastapi-instrumentator [#403](https://github.com/trallnag/prometheus-fastapi-instrumentator/pull/403) · PX4 Autopilot [#29271](https://github.com/PX4/PX4-Autopilot/pull/29271) [#29291](https://github.com/PX4/PX4-Autopilot/pull/29291)
