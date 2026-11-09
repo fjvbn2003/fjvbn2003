@@ -95,7 +95,7 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 
 I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with a reproduction or measurement from a real cluster. Main focus: **KubeVirt**, **Kubeflow** and **CloudNativePG**.
 
-**34 merged** across 28 projects · **47 in review** *(as of November 7, 2026)*
+**35 merged** across 29 projects · **46 in review** *(as of November 10, 2026)*
 
 **Merged**
 
@@ -114,12 +114,13 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 </details>
 
-<details><summary><b>AI / ML infrastructure</b> (9)</summary>
+<details><summary><b>AI / ML infrastructure</b> (10)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
 | Kubeflow Trainer | [#4334](https://github.com/kubeflow/trainer/pull/4334) | Use v2.3.0 in the installation guide |
 | Kubeflow manifests | [#3662](https://github.com/kubeflow/community-distribution/pull/3662) | Docs: fix broken relative links to the release handbook and component documentation |
+| KAI Scheduler | [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) | Queues: explain that an omitted limit is 0 and fix the example quotas |
 | Gemini cookbook | [#1433](https://github.com/google-gemini/cookbook/pull/1433) | Live API WebSocket starter: current `realtime_input` format, flush playback on interruption |
 | llm-d | [#2835](https://github.com/llm-d/llm-d/pull/2835) | Replace vLLM metric names that vLLM no longer exports |
 | llm-d router | [#3681](https://github.com/llm-d/llm-d-router/pull/3681) | Make the file discovery example run as written |
@@ -164,7 +165,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 **In review**
 
 - **Virtualization** — KubeVirt [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
-- **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · KAI Scheduler [#2532](https://github.com/kai-scheduler/KAI-Scheduler/pull/2532) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396)
+- **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396)
 - **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) [#1166](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1166) · zstd [#4847](https://github.com/meta/zstd/pull/4847) · RocksDB [#15418](https://github.com/meta/rocksdb/pull/15418)
 - **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
 - **Observability & IaC** — Grafana Tempo chart [#898](https://github.com/grafana-community/helm-charts/pull/898) · Ansible docs [#4077](https://github.com/ansible/ansible-documentation/pull/4077) [#4078](https://github.com/ansible/ansible-documentation/pull/4078) · Terraform local provider [#533](https://github.com/hashicorp/terraform-provider-local/pull/533)
