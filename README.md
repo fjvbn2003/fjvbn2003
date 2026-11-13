@@ -95,11 +95,11 @@ An 8-node kubeadm cluster at home that runs **[TT Lab](https://ttlab.hopto.org)*
 
 I contribute to the cloud-native and AI-infrastructure projects I run in my home lab, and back each change with a reproduction or measurement from a real cluster. Main focus: **KubeVirt**, **Kubeflow** and **CloudNativePG**.
 
-**36 merged** across 30 projects · **45 in review** *(as of November 10, 2026)*
+**37 merged** across 31 projects · **44 in review** *(as of November 14, 2026)*
 
 **Merged**
 
-<details open><summary><b>Virtualization</b> (8)</summary>
+<details open><summary><b>Virtualization</b> (9)</summary>
 
 | Project | PR | Change |
 |:---|:---|:---|
@@ -111,6 +111,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 | KubeVirt CDI | [#4320](https://github.com/kubevirt/containerized-data-importer/pull/4320) | Log the storage class name instead of its pointer |
 | KubeVirt user-guide | [#1040](https://github.com/kubevirt/user-guide/pull/1040) | Mark `spec.running` deprecated in favor of `runStrategy` |
 | KubeVirt virt-template | [#137](https://github.com/kubevirt/virt-template/pull/137) | Use `template.kubevirt.io/v1beta1` in README examples |
+| kubernetes-mcp-server | [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518) | KubeVirt toolset: drop deprecated `spec.running` when setting `runStrategy` |
 
 </details>
 
@@ -165,7 +166,7 @@ I contribute to the cloud-native and AI-infrastructure projects I run in my home
 
 **In review**
 
-- **Virtualization** — KubeVirt [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222) · kubernetes-mcp-server [#1518](https://github.com/containers/kubernetes-mcp-server/pull/1518)
+- **Virtualization** — KubeVirt [#19530](https://github.com/kubevirt/kubevirt/pull/19530) · KubeVirt user-guide [#1045](https://github.com/kubevirt/user-guide/pull/1045) [#1051](https://github.com/kubevirt/user-guide/pull/1051) [#1052](https://github.com/kubevirt/user-guide/pull/1052) · KubeVirt website [#1054](https://github.com/kubevirt/kubevirt.github.io/pull/1054) · macvtap-cni [#160](https://github.com/kubevirt/macvtap-cni/pull/160) · NVIDIA kubevirt-gpu-device-plugin [#222](https://github.com/NVIDIA/kubevirt-gpu-device-plugin/pull/222)
 - **GPU & AI infrastructure** — Kubeflow Trainer [#4356](https://github.com/kubeflow/trainer/pull/4356) · NVIDIA GPU Operator [#3086](https://github.com/NVIDIA/gpu-operator/pull/3086) · NVIDIA k8s-device-plugin [#2104](https://github.com/NVIDIA/k8s-device-plugin/pull/2104) · NVIDIA go-nvlib [#129](https://github.com/NVIDIA/go-nvlib/pull/129) · NVIDIA cloud-native-docs [#524](https://github.com/NVIDIA/cloud-native-docs/pull/524) · DCGM Exporter [#760](https://github.com/NVIDIA/dcgm-exporter/pull/760) · Dynamo [#17386](https://github.com/ai-dynamo/dynamo/pull/17386) [#16465](https://github.com/ai-dynamo/dynamo/pull/16465) · vLLM production-stack [#1147](https://github.com/vllm-project/production-stack/pull/1147) [#1148](https://github.com/vllm-project/production-stack/pull/1148) · CoreWeave tensorizer [#211](https://github.com/coreweave/tensorizer/pull/211) · NeMo [#16396](https://github.com/NVIDIA-NeMo/Speech/pull/16396)
 - **Databases & storage** — CloudNativePG barman-cloud [#1164](https://github.com/cloudnative-pg/plugin-barman-cloud/pull/1164) · zstd [#4847](https://github.com/meta/zstd/pull/4847) · RocksDB [#15418](https://github.com/meta/rocksdb/pull/15418)
 - **Kubernetes & tooling** — MetalLB [#3156](https://github.com/metallb/metallb/pull/3156) · k9s [#4298](https://github.com/derailed/k9s/pull/4298) · Harbor Helm [#2423](https://github.com/goharbor/harbor-helm/pull/2423) · k8s-sidecar [#661](https://github.com/kiwigrid/k8s-sidecar/pull/661) · podman-compose [#1585](https://github.com/containers/podman-compose/pull/1585) · alpine/k8s [#100](https://github.com/alpine-docker/k8s/pull/100)
